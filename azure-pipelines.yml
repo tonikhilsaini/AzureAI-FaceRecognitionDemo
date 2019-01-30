@@ -19,6 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 - task: PublishBuildArtifacts@1
-    inputs:
-      pathtoPublish: $(Build.ArtifactStagingDirectory)
-      artifactName: Demo
+   inputs:
+    pathtoPublish: $(Build.ArtifactStagingDirectory)
+    artifactName: Demo
